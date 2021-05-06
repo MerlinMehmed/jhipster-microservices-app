@@ -36,6 +36,9 @@
     "nativeLanguage": "en",
     "packageFolder": "de/tum/in",
     "jwtSecretKey": "YWVmODdkMzFiNmExOTA4OTVlNmFkZjRkOTY5MTc0MTlmZjRkYWJhNGZkODM4OTI0MzJkMzk4MGMyMWQ5MzJiNTllODY2ZmU5MWZhNTdmMWQ4ZDc5NGY4OGFiMzVlMGZjMDg4YWZmMTgyYTViMzAyYmQzZTg2YjRkOWU3MTAyYzY=",
-    "languages": ["en"]
+    "languages": ["en"],
+    "lastLiquibaseTimestamp": 1620290004000,
+    "entities": ["Exam"],
+    "appFolder": "exam"
   }
 }

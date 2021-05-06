@@ -41,6 +41,8 @@
     "jwtSecretKey": "MjY2MTkzODk5OWNiZmM2MDNiY2NmNjQ1NGNkMTIwMzMzMGE1MTg4ZDUwMjNkOGMzNmMzYjQwNTQzOGVkM2Q1MzAzZWUwOThiNDg0OGMzOWEwMDI5MTNjMGQ5YTFlNTI5ZDQyNzcxZDIzMDNmN2RlZmU0MjBkYWEyMjg4NGMxMDE=",
     "clientPackageManager": "npm",
     "clientThemeVariant": "",
-    "languages": ["en", "de"]
+    "languages": ["en", "de"],
+    "entities": ["Lecture", "Exam"],
+    "appFolder": "gateway"
   }
 }

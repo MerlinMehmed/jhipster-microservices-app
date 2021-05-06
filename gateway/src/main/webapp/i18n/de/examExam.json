@@ -1,0 +1,28 @@
+{
+  "gatewayApp": {
+    "examExam": {
+      "home": {
+        "title": "Exams",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Exam erstellen",
+        "createOrEditLabel": "Exam erstellen oder bearbeiten",
+        "notFound": "Keine Exams gefunden"
+      },
+      "delete": {
+        "question": "Soll Exam {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Exam"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  },
+  "examApp": {
+    "examExam": {
+      "created": "Exam erstellt mit ID {{ param }}",
+      "updated": "Exam aktualisiert mit ID {{ param }}",
+      "deleted": "Exam gelöscht mit ID {{ param }}"
+    }
+  }
+}

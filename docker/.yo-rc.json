@@ -1,0 +1,10 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["exam", "gateway", "lecture"],
+    "directoryPath": "../",
+    "gatewayType": "SpringCloudGateway",
+    "monitoring": "prometheus",
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "MDk4ZTgwNDM4YTAzMGFhNWNjMDllMGQyODc2OTc2ZDQ0YWVhODk0ZDcyOGFkZTFjNzRiZjYxODFjMGRlZjdjMTU2M2VkYjc4ZjNlZGZhZWMzYTgzYmM3OWNmMTMwYTI0ZGRkMw=="
+  }
+}

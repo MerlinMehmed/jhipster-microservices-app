@@ -1,0 +1,20 @@
+{
+  "microservicePath": "../exam",
+  "microserviceName": "exam",
+  "clientRootFolder": "exam",
+  "databaseType": "sql",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "service": "serviceClass",
+  "dto": "no",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "Exam",
+  "changelogDate": "20210506083324"
+}

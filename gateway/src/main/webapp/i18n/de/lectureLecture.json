@@ -1,0 +1,29 @@
+{
+  "gatewayApp": {
+    "lectureLecture": {
+      "home": {
+        "title": "Lectures",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Lecture erstellen",
+        "createOrEditLabel": "Lecture erstellen oder bearbeiten",
+        "notFound": "Keine Lectures gefunden"
+      },
+      "delete": {
+        "question": "Soll Lecture {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Lecture"
+      },
+      "id": "ID",
+      "name": "Name",
+      "lecturer": "Lecturer"
+    }
+  },
+  "lectureApp": {
+    "lectureLecture": {
+      "created": "Lecture erstellt mit ID {{ param }}",
+      "updated": "Lecture aktualisiert mit ID {{ param }}",
+      "deleted": "Lecture gelöscht mit ID {{ param }}"
+    }
+  }
+}

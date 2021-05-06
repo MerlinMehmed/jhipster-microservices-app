@@ -36,6 +36,9 @@
     "nativeLanguage": "en",
     "packageFolder": "de/tum/in",
     "jwtSecretKey": "MmNlYWMwZjU2NDk2NjBlNjZiMjljMmM1NGI0NWM0ODg0Njc3YmZlOTQ2MDQ0ODEyZDZkMTcxZTk1YmJhMTM4OGIyNDdlZWU4NzhlNzVkMDQzMGUwMDM1ZWI2YzlmYzg2OWFjZjc3YmQ4Zjc3MTNlOGE2MTk3ODRlYjcxODE4M2E=",
-    "languages": ["en", "de"]
+    "languages": ["en", "de"],
+    "lastLiquibaseTimestamp": 1620288957000,
+    "entities": ["Lecture"],
+    "appFolder": "lecture"
   }
 }

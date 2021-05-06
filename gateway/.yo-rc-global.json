@@ -2,7 +2,8 @@
   "generator-jhipster:7.0.1": {
     "promptValues": {
       "packageName": "de.tum.in",
-      "nativeLanguage": "en"
+      "nativeLanguage": "en",
+      "microservicePath": "../exam"
     }
   }
 }
