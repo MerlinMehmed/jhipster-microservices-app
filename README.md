@@ -7,7 +7,7 @@
 3. Run ``gradlew bootJar jibDockerBuild``
 4. Navigate to ./lecture
 3. Run ``gradlew bootJar jibDockerBuild``
-4. 2. Navigate to ./gateway
+4. Navigate to ./gateway
 3. Run ``gradlew bootJar jibDockerBuild``
 5. Navigate to ./docker
 6. Run ``docker-compose up``
