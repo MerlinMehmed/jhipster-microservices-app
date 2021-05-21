@@ -16,7 +16,7 @@
 ## Architecture
 The following diagram shows details about the architecture of the project. 
 ![Server Architecture](docs/architecture-diagram.png "Server Architecture")
-It consists of 2 microservice application - Exam and Lecture, a Gateway and a Registry.
+It consists of 2 microservice applications - Exam and Lecture, a Gateway and a Registry.
 
 ### Registry
 The Registry is an application that serves 3 main purposes:
