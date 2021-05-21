@@ -3,9 +3,15 @@
 ## Setup
 ### Run with docker-compose
 1. Install docker and docker-compose
-2. Navigate to ./docker
-3. Run ``docker-compose up``
-4. Go to http://localhost:8080
+2. Navigate to ./exam
+3. Run ``gradlew bootJar jibDockerBuild``
+4. Navigate to ./lecture
+3. Run ``gradlew bootJar jibDockerBuild``
+4. 2. Navigate to ./gateway
+3. Run ``gradlew bootJar jibDockerBuild``
+5. Navigate to ./docker
+6. Run ``docker-compose up``
+7. Go to http://localhost:8080
 
 ## Architecture
 The following diagram shows details about the architecture of the project. 
