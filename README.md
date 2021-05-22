@@ -1,21 +1,8 @@
 # Microservices Application using JHipster
 
-## Setup
-### Run with docker-compose
-1. Install docker and docker-compose
-2. Navigate to ./exam
-3. Run ``gradlew bootJar jibDockerBuild``
-4. Navigate to ./lecture
-3. Run ``gradlew bootJar jibDockerBuild``
-4. Navigate to ./gateway
-3. Run ``gradlew bootJar jibDockerBuild``
-5. Navigate to ./docker
-6. Run ``docker-compose up``
-7. Go to http://localhost:8080
-
 ## Architecture
 The following diagram shows details about the architecture of the project. 
-![Server Architecture](docs/architecture-diagram.png "Server Architecture")
+![Architecture](docs/architecture-diagram.png "Architecture")
 It consists of 2 microservice applications - Exam and Lecture, a Gateway and a Registry.
 
 ### Registry
@@ -43,4 +30,54 @@ Exam is a microservice JHipster application. It is a Spring Boot application and
 ### Lecture
 Lecture is the second microservice application. It is a Spring Boot application and supports CRUD operations for the Lecture entity.
 
+## Project Generation Steps
 
+### Preliminary
+
+1. Install JHipster generator
+
+### Generate microservice application (Lecture)
+
+1. Create directory ``/lecture``
+2. Navigate to ```/lecture```
+3. Run ``jhipster``
+4. Configure the application
+   ![Microservice configuration](docs/lecture.png "Microservice configuration")
+5. Create entities 
+
+### Generate microservice application (Exam)
+
+1. Create directory ``/exam``
+2. Navigate to ```/exam```
+3. Run ``jhipster``
+4. Configure the application
+   ![Microservice configuration](docs/exam.png "Microservice configuration")
+5. Create entities
+
+### Generate gateway with an Angular frontend
+
+1. Create directory ``/gateway``
+2. Navigate to ```/gateway```
+3. Run ``jhipster``
+4. Configure the application
+   ![Gateway configuration](docs/gateway.png "Gateway configuration")
+5. Recreate entities
+### Generate docker-compose configuration
+
+1. Create directory ``/docker``
+2. Navigate to ```/docker```
+3. Run ``jhipster docker-compose``
+4. Configure the application
+   ![Docker-compose configuration](docs/docker-compose.png "Docker-compose configuration")
+
+## Run with docker-compose
+1. Install docker and docker-compose
+2. Navigate to ./exam
+3. Run ``gradlew bootJar jibDockerBuild``
+4. Navigate to ./lecture
+3. Run ``gradlew bootJar jibDockerBuild``
+4. Navigate to ./gateway
+3. Run ``gradlew bootJar jibDockerBuild``
+5. Navigate to ./docker
+6. Run ``docker-compose up``
+7. Go to http://localhost:8080
